@@ -26,9 +26,13 @@
 
 
 ## Задание 2. Запустить две версии в разных неймспейсах
-1. Подготовив чарт, необходимо его проверить. Запуститe несколько копий приложения.
-2. Одну версию в namespace=app1, вторую версию в том же неймспейсе, третью версию в namespace=app2.
-3. Продемонстрируйте результат.
 
 
-Файл README.md должен содержать скриншоты вывода необходимых команд kubectl, helm, а также скриншоты результатов.
+<img width="420" height="236" alt="image" src="https://github.com/user-attachments/assets/efd6f8b6-5ebe-473d-a461-0ad6d37dcea4" />
+
+
+<img width="956" height="616" alt="image" src="https://github.com/user-attachments/assets/b77a9359-f4ae-4f6a-9415-b8699f35ef7c" />
+
+
+
+
