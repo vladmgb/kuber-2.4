@@ -12,3 +12,5 @@ service:
   port: 80
 
 resources: {}
+
+helm install my-release ./myapp --namespace app1 --set image.tag=1.0.2
