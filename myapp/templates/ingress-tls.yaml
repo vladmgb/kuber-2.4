@@ -8,7 +8,7 @@ spec:
   tls:
     - hosts:
         - myapp.example.com
-      secretName: tls-secret
+      secretName: {{ .Release.Name }}-tls-secret
   rules:
     - host: myapp.example.com
       http:
@@ -17,6 +17,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: myapp-service
+                name: {{ .Release.Name }}-myapp-service
                 port:
                   number: 80

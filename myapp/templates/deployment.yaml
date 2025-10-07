@@ -28,7 +28,7 @@ spec:
       volumes:
       - name: nginx-config
         configMap:
-          name: nginx-config
+          name: {{ .Release.Name }}-nginx-config
 
 
 
